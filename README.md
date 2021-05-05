@@ -1,4 +1,4 @@
-# Dog Breed Images Classification
+# Image Classification for Dog Breeds
 <img src="https://media1.s-nbcnews.com/i/newscms/2020_28/1587661/dogs-age-years-kb-inline-200707_7d0bca498155db9ae60dd81dec0ba6ab.jpg" alt= "dogs" >
 Author: Anisha Malholtra
 
@@ -11,19 +11,38 @@ There are about 200 dog breeds in the world right now, which can make differing 
 # Data 
 The data in this project was pulled from Kaggle and includes 20,580 images of 120 different dog breeds. The link to the data: https://www.kaggle.com/jessicali9530/stanford-dogs-dataset
 
-(include graph of image count) DJSHFKSDHK
+<img src="https://github.com/anisha732/DogImageClassification/blob/master/photos/imagesbreed.png?raw=true" alt= "imagecount" >
+
 There is no significant class imbalance issue, however it is evident that the breed with the most images are Maltese and least is Redbone.
 
 # Model Evaluation
 
-DATFRAME WITH ALL MODELS COMPARISON
+<img src="https://github.com/anisha732/DogImageClassification/blob/master/photos/eval.png?raw=true" alt= "eval" >
 
-After running several models, the model with the highest accuracy score is the InceptionNet Model with an accuracy score of 92.5%. 
+After running several models, the model with the highest accuracy score is the InceptionV3 Model with an accuracy score of 91.97%. Plotted below are the accuracy and loss per epoch graphs for this model.
 
-LOSS AND ACCURACY GRAPH FOR EPOCHS
+<img src="https://github.com/anisha732/DogImageClassification/blob/master/photos/accuracy.png?raw=true" alt= "acc" >
+<img src="https://github.com/anisha732/DogImageClassification/blob/master/photos/loss.png?raw=true" alt= "loss" >
 
 # Predictions
 
-Preds visual
+Unseen images were passed to this model to test the accuracy of its predictions.
+
+<img src="https://github.com/anisha732/DogImageClassification/blob/master/photos/lab.png?raw=true" alt= "lab" >
+<img src="https://github.com/anisha732/DogImageClassification/blob/master/photos/shihtzu.png?raw=true" alt= "shihtzu" >
+
+# Next Steps
+- Include images of mixed breeds for the model to differentiate (ex: cockapoo, puggle)
+- Create a recommendation system that recommends similar breeds based on input image
+- Outputs characteristics of breed (ex: playful, intelligent, hypoallergenic, common medical issues, insurance liability)
+
+# Repository Structure
+```
+├── photos
+├── notebooks
+├── Final_notebook.ipynb
+├── DogClassificationPresentation
+└── README.md
+```
 
 
