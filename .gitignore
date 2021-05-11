@@ -1,1 +1,4 @@
+inception/variables/
+variables.data-00000-of-00001
 *.icloud
+.ipynb_checkpoints/*
